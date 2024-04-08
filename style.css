@@ -24,4 +24,6 @@ body {
 }
 
 .btn-black {
+  background-color: black;
+  border: none;
 }
