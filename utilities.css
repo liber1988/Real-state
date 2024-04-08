@@ -16,10 +16,30 @@
 }
 .center {
   justify-content: center;
+  align-items: center;
 }
 .p-2-rem {
   padding-left: 2rem;
 }
 .p-up {
   padding-top: 1rem;
+}
+.p-up-half {
+  padding-top: 0.5rem;
+}
+.margin-around {
+  margin: 1rem;
+}
+.end {
+  justify-content: end;
+}
+.p-btn {
+  padding: 0.5rem;
+}
+.icon-size {
+  width: 1rem;
+  height: 1rem;
+}
+.margin-part {
+  margin-top: 3rem;
 }

@@ -22,8 +22,14 @@ body {
 
 .btn-black {
   background-color: black;
+  color: white;
+  border-radius: 2px;
 }
-
+.btn-purpure {
+  background-color: rgb(112, 59, 247);
+  color: white;
+  border-radius: 2px;
+}
 .part1 {
   padding: 1rem;
 }
@@ -37,6 +43,15 @@ body {
   height: 100%;
 }
 .part3-image {
-  width: 345px;
-  height: 300px;
+  width: 245px;
+  height: 235px;
+}
+.btn-black-position {
+  position: relative;
+  top: -0.3rem;
+}
+.part4-icons {
+  padding: 1.5rem;
+  height: 100px;
+  margin: 1rem;
 }
