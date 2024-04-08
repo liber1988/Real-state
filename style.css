@@ -6,15 +6,12 @@
     sans-serif;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-color: black;
   color: white;
+  font-size: 62.5%;
 }
 .font-small {
-  font-size: small;
+  font-size: 0.4rem;
 }
 .font-main-header {
   font-size: larger;
@@ -25,5 +22,21 @@ body {
 
 .btn-black {
   background-color: black;
-  border: none;
+}
+
+.part1 {
+  padding: 1rem;
+}
+
+.logo-image {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.part3-container1 {
+  width: 50%;
+  height: 100%;
+}
+.part3-image {
+  width: 345px;
+  height: 300px;
 }
