@@ -2,16 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
-    sans-serif;
+  font-family: "Urbanist";
 }
 body {
   background-color: black;
   color: white;
   font-size: 62.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .font-small {
   font-size: 0.4rem;
+}
+.font10px {
+  font-size: 10px;
 }
 .font-main-header {
   font-size: larger;
@@ -33,15 +38,29 @@ body {
 .part1 {
   padding: 1rem;
 }
+.part2 {
+  width: 100%;
+}
+.part4 {
+  width: 100%;
+}
 
 .logo-image {
   width: 0.8rem;
   height: 0.8rem;
 }
-.part3-container1 {
+.part3 {
+  width: 80vw;
+}
+/* .part3-container1 {
   width: 50%;
   height: 100%;
 }
+
+.part3-container2 {
+  width: 50%;
+  height: 100%;
+} */
 .part3-image {
   width: 245px;
   height: 235px;
