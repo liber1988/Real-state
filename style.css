@@ -2,52 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-<<<<<<< HEAD
   font-family: "Urbanist";
-=======
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
-    sans-serif;
-** {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
-    sans-serif;
->>>>>>> 75a341a3c0fba5458b089748119d946cdba6cc1c
 }
 body {
   background-color: black;
   color: white;
   font-size: 62.5%;
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   align-items: center;
-=======
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  color: white;
->>>>>>> 75a341a3c0fba5458b089748119d946cdba6cc1c
 }
 .font-small {
   font-size: 0.4rem;
-.font-small {
-  font-size: small;
 }
 .font10px {
   font-size: 10px;
 }
 .font-main-header {
   font-size: larger;
-.font-main-header {
-  font-size: larger;
 }
-.font-sub-title {
-  font-size: medium;
 .font-sub-title {
   font-size: medium;
 }
@@ -102,13 +75,31 @@ body {
   margin: 1rem;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.font-small {
+  font-size: small;
+}
+.font-main-header {
+  font-size: larger;
+}
+.font-sub-title {
+  font-size: medium;
+}
 
 .btn-black {
   background-color: black;
   border: none;
 }
 
-/*part3*/
+/*part5*/
+
 .card {
   max-width: 300px;
   border: rgb(103, 103, 103) 1px solid;
@@ -125,7 +116,7 @@ body {
   position: relative;
   width: 100%;
 }
-.part3 img {
+.part5 img {
   width: 100%;
   border-radius: 5px;
 }
@@ -148,8 +139,8 @@ body {
   display: flex;
   align-self: flex-end; /* Align item at the end of the cross axis (bottom) */
 }
-.part3 > div,
-.part4 > div {
+.part5 > div,
+.part6 > div {
   margin: 30px 0;
 }
 .arrow {
@@ -161,10 +152,10 @@ body {
 .arrow:hover {
   background-color: gray;
 }
-.part4 {
+.part6 {
   width: 80vw;
 }
-.part4 img {
+.part6 img {
   height: 60px;
   width: 60px;
   border-radius: 50%;
