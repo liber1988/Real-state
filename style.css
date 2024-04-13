@@ -173,3 +173,72 @@ body {
 .fedback > div {
   padding-left: 10px;
 }
+/* ------------------------- */
+.frequently {
+  display: block;
+}
+
+.frequently .top-area {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20rem;
+}
+.top-area h2,
+.top-area p {
+  color: var(--our-white);
+  margin: 1rem;
+}
+
+.top-area h2 {
+  font-size: 2.5rem;
+}
+
+.top-area p {
+  color: var(--text-grey);
+  padding-right: 10rem;
+}
+
+.top-area button {
+  background: var(--mid-grey);
+  padding: 0 10px;
+  font-size: 10px;
+}
+
+.card-area .prop-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.card-area {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  color: var(--our-white);
+}
+
+.prop-card {
+  width: 100%;
+  border-radius: 15px;
+  border: var(--cards-grey) 2px solid;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.prop-card img {
+  margin-bottom: 1rem;
+}
+
+.prop-card h3 {
+  margin: 1rem 0;
+}
+.primary-btn {
+  margin-top: 10px;
+  border-radius: 5px;
+  background: #191919;
+  border: 0.5px solid #262626;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
