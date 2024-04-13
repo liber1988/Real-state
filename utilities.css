@@ -11,7 +11,9 @@
 .space-between {
   justify-content: space-around;
 }
-
+.text-align {
+  text-align: left;
+}
 .no-style {
   list-style-type: none;
 }
@@ -43,4 +45,8 @@
 }
 .margin-part {
   margin-top: 3rem;
+}
+
+.p-2rem-all {
+  padding: 1rem;
 }
